@@ -1,3 +1,6 @@
+
+
 pub fn reverse(input: &str) -> String {
-    unimplemented!("Write a function to reverse {}", input);
+    let drow: String = input.chars().rev().collect::<String>();
+    return drow;
 }
